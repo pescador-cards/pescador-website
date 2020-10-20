@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* padding-left: var(--sidebar-margin);
+    padding-right: var(--sidebar-margin); */
+    margin: auto;
+    height: var(--navbar-height);
+    font-size: var(--navbar-font-size);
+    width: var(--content-width);
+}
+
+.navbar .nav-item:not(:first-child)::before {
+    content: "/";
+    padding-right: var(--navbar-seperator-spacing);
+    padding-left: var(--navbar-seperator-spacing);
+}
