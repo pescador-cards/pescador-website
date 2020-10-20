@@ -1,9 +1,8 @@
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1;
     margin: auto;
     width: var(--content-width);
-    background-color: var(--shadow-of-light-blue);
     border-radius: 5px;
 }

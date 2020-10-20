@@ -1,6 +1,8 @@
-.header {
+header {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    margin-top: 60px;
 }
 
 .navbar {
@@ -13,6 +15,7 @@
     height: var(--navbar-height);
     font-size: var(--navbar-font-size);
     width: var(--content-width);
+    padding-left: 10px;
 }
 
 .navbar .nav-item:not(:first-child)::before {
