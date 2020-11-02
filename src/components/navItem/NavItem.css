@@ -1,0 +1,10 @@
+.nav-item:not(:first-child)::before {
+    content: "/";
+    padding-right: var(--navbar-seperator-spacing);
+    padding-left: var(--navbar-seperator-spacing);
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: inherit;
+}

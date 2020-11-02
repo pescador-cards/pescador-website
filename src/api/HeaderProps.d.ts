@@ -1,3 +1,3 @@
 export interface HeaderProps {
-    nav: string[];
+    nav?: JSX.Element[];
 }

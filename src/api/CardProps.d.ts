@@ -1,4 +1,4 @@
 export interface CardProps {
     header: string;
-    body: string;
+    children?: string | JSX.Element | JSX.Element[];
 }

@@ -1,16 +1,16 @@
 import React from "react";
 import { CardProps } from "../../api/CardProps";
+
 import "./Card.css";
 
-export function Card({ header, body }: CardProps) {
-    function handleOnClick() {
-        console.log("clickyy");
-    }
-
+/**
+ * Card, containing a header and a body, which can be filled with custom JSX.Elements.
+ */
+export function Card({ header, children }: CardProps) {
     return (
-        <div className="card" onClick={handleOnClick}>
+        <div className="card">
             <div className="header">{header}</div>
-            <div className="body">{body}</div>
+            <div className="body">{children}</div>
         </div>
     );
 }

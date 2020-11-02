@@ -1,18 +1,12 @@
 import React from "react";
-import { Card } from "../card/Card";
+import { CardListProps } from "../../api/CardListProps";
+
 import "./CardList.css";
 
-export function CardList() {
-    const cards = [];
-
-    for (let i = 0; i < 21; i++) {
-        cards.push(
-            <Card
-                header="Card Header"
-                body="Some long body text, which might be interesting"
-            />
-        );
-    }
+/**
+ * List for cards.
+ */
+export function CardList({ cards }: CardListProps) {
     return (
         <div className="card-list-container">
             <div className="card-list">{cards}</div>

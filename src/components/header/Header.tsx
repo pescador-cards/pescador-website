@@ -1,5 +1,6 @@
 import React from "react";
 import { HeaderProps } from "../../api/HeaderProps";
+
 import "./Header.css";
 
 /**
@@ -8,11 +9,7 @@ import "./Header.css";
 export function Header({ nav }: HeaderProps) {
     return (
         <header className="header">
-            <div className="navbar">
-                {nav.map((n) => (
-                    <div className="nav-item">{n}</div>
-                ))}
-            </div>
+            <div className="navbar">{nav}</div>
         </header>
     );
 }

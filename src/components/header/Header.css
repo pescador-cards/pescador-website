@@ -17,9 +17,3 @@ header {
     width: var(--content-width);
     padding-left: 10px;
 }
-
-.navbar .nav-item:not(:first-child)::before {
-    content: "/";
-    padding-right: var(--navbar-seperator-spacing);
-    padding-left: var(--navbar-seperator-spacing);
-}

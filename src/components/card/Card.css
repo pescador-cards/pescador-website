@@ -1,7 +1,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    width: 130px;
+    width: 150px;
     margin: 10px;
     border-radius: 1px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
@@ -29,5 +29,5 @@
 .card .body {
     height: auto;
     width: 100%;
-    padding: 5px;
+    padding: 15px;
 }

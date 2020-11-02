@@ -1,3 +1,8 @@
+import { Component } from "react";
+
 export interface CardListProps {
-    heading: string;
+    /**
+     * Cards to be rendered in the list.
+     */
+    cards?: JSX.Element | JSX.Element[]
 }
